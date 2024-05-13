@@ -2,9 +2,7 @@
 public class Solution {
 
 	public static String run(String startPosition, int rows, int columns) {
-		/*
-		* Write your code below; return type and arguments should be according to the problem's requirements
-		*/
+	
 		ChessBoard board = new ChessBoard(8,8);
 		board.placePawn(startPosition);
 		board.printBoard();
